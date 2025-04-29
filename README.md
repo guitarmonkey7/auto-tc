@@ -28,6 +28,7 @@ An automated system for managing real estate transactions, including PDF data ex
 └── docs/                  # Documentation
 ```
 
+## %%% THIS SECTION IS UNDER CONSTRUCTION AND MAY CHANGE SIGNIFICANTLY %%%
 ## Setup Instructions
 
 1. Create a virtual environment:
@@ -60,6 +61,7 @@ alembic upgrade head
 ```bash
 uvicorn app.main:app --reload
 ```
+## %%% END UNDER CONSTRUCTION SECTION %%%
 
 ## Development Roadmap
 
