@@ -86,3 +86,10 @@ uvicorn app.main:app --reload
    - Document repository
    - Reporting
    - Mobile responsiveness 
+
+
+## Dev Notes
+
+In order to use pdf2image to convert a pdf into an image for markup, Popplar must be installed.
+This process varies by installation. See the information here: https://pdf2image.readthedocs.io/en/latest/installation.html#installing-poppler
+This will need to be added to the Docker Container for this to run as a containerized service
